@@ -7,8 +7,8 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-require("/Users/tomohiro/projects/AjaxApp/app/javascript/packs/checked.js")
-require("/Users/tomohiro/projects/AjaxApp/app/javascript/packs/memo.js")
+require("../checked")
+require("../memo")
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
